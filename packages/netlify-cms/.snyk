@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - netlify-cms-widget-markdown > slate > lodash:
+        patched: '2020-05-01T06:27:30.614Z'
+    - netlify-cms-widget-markdown > slate-react > lodash:
+        patched: '2020-05-01T06:27:30.614Z'
+    - netlify-cms-core > redux-notifications > react-redux > lodash:
+        patched: '2020-05-01T06:27:30.614Z'
+    - emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T06:27:30.614Z'
+    - netlify-cms-widget-markdown > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T06:27:30.614Z'
+    - netlify-cms-widget-relation > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T06:27:30.614Z'
+    - netlify-cms-widget-select > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T06:27:30.614Z'
