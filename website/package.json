@@ -6,8 +6,9 @@
     "start": "gatsby develop",
     "build": "gatsby build && mv public dist",
     "copy:contribs": "cp ../.all-contributorsrc data/contributors.json",
-    "prepare": "npm run copy:contribs",
-    "reset": "rm -rf .cache"
+    "prepare": "yarn run snyk-protect && npm run copy:contribs",
+    "reset": "rm -rf .cache",
+    "snyk-protect": "snyk protect"
   },
   "author": "",
   "homepage": "https://www.netlifycms.org/",
@@ -42,12 +43,14 @@
     "react-helmet": "^5.2.0",
     "react-markdown": "^3.3.2",
     "react-sidecar": "^0.1.1",
-    "smooth-scroll": "^14.2.0"
+    "smooth-scroll": "^14.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-plugin-prismjs": "^1.0.2",
     "eslint": "^3.1.1",
     "eslint-plugin-import": "^1.11.1"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
