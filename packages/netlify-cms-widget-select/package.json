@@ -19,7 +19,9 @@
   "scripts": {
     "watch": "webpack -w",
     "develop": "npm run watch",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
@@ -36,6 +38,8 @@
     "react-immutable-proptypes": "^2.1.0"
   },
   "dependencies": {
-    "react-select": "^2.1.1"
-  }
+    "react-select": "^2.1.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
