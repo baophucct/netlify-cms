@@ -26,7 +26,7 @@
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-json": "next",
     "gatsby-transformer-remark": "next",
-    "gatsby-transformer-yaml": "next",
+    "gatsby-transformer-yaml": "5.5.0",
     "github-buttons": "git+https://github.com/ntkme/github-buttons.git",
     "lodash": "^4.17.10",
     "netlify-cms": "^2.0.11",
