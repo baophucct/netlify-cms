@@ -15,7 +15,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "dayjs": "^1.7.5",
-    "gatsby": "next",
+    "gatsby": "5.0.0",
     "gatsby-plugin-catch-links": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-netlify-cms": "^3.0.0-rc.1",
@@ -25,7 +25,7 @@
     "gatsby-remark-prismjs": "next",
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-json": "next",
-    "gatsby-transformer-remark": "next",
+    "gatsby-transformer-remark": "6.10.0",
     "gatsby-transformer-yaml": "next",
     "github-buttons": "git+https://github.com/ntkme/github-buttons.git",
     "lodash": "^4.17.10",
