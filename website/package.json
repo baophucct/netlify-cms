@@ -15,7 +15,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "dayjs": "^1.7.5",
-    "gatsby": "next",
+    "gatsby": "2.0.0",
     "gatsby-plugin-catch-links": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-netlify-cms": "^3.0.0-rc.1",
